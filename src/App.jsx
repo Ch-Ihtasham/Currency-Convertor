@@ -33,6 +33,7 @@ function App() {
       }}>
         <InputBox
           label={'From'}
+          
           amount={amount}
           currencyOptions={options}
           onAmountChange={setAmount}
